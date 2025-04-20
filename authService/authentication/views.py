@@ -54,6 +54,6 @@ class UserList(APIView):
         userlist = []
 
         for user in users:
-            userlist.append({"username": user.username, "email": user.email, "password": user.password})
+            userlist.append({"id": user.id, "username": user.username, "email": user.email, "password": user.password})
  
         return Response(userlist)
