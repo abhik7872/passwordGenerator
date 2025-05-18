@@ -1,8 +1,8 @@
 from django.db import models
 
 # Create your models here.
-class passwords(models.Model):
-    user_id = models.IntegerField()
+class Passwords(models.Model):
+    user_id = models.IntegerField(null=False)
     label = models.CharField(max_length=100)
     password = models.CharField(max_length=255)
     created_at = models.DateTimeField(auto_now_add=True)

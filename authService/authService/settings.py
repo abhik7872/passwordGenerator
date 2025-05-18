@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -136,4 +137,45 @@ REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     )
+}
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  #  Your project's base directory
+LOG_DIR = os.path.join(BASE_DIR, 'logs')  #  Create a 'logs' directory at the project root
+if not os.path.exists(LOG_DIR):
+    os.makedirs(LOG_DIR)  #  Ensure the directory exists
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'standard': {
+            'format': '[%(asctime)s] %(levelname)s [%(name)s:%(lineno)s] %(message)s',
+            'datefmt': '%Y-%m-%d %H:%M:%S',
+        },
+    },
+    'handlers': {
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': os.path.join(LOG_DIR, 'django.log'),  #  Log file in the 'logs' directory
+            'formatter': 'standard',
+        },
+        'console': { #optional
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+            'formatter': 'standard',
+        }
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['file', 'console'],  # Send Django logs to the file
+            'level': 'INFO',  #  Log Django INFO level and above
+            'propagate': True,
+        },
+        'password': {  #  Replace 'your_app_name'
+            'handlers': ['file', 'console'],  #  Send your app's logs to the file
+            'level': 'DEBUG',  #  Log your app's DEBUG level and above
+            'propagate': True,
+        },
+    },
 }

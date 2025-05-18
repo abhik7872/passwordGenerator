@@ -1,0 +1,513 @@
+[2025-05-18 13:07:19] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:07:44] WARNING [django.request:248] Unauthorized: /generate-password/
+[2025-05-18 13:07:44] WARNING [django.server:213] "POST /generate-password/ HTTP/1.1" 401 58
+[2025-05-18 13:08:10] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:08:10] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:08:15] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:08:16] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:09:19] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:09:20] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:10:24] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:10:24] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:10:32] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:10:33] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:11:09] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:11:09] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:14:32] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/passwordService/settings.py changed, reloading.
+[2025-05-18 13:14:33] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:14:43] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:17:06] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/passwordService/settings.py changed, reloading.
+[2025-05-18 13:17:06] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:17:23] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/passwordService/settings.py changed, reloading.
+[2025-05-18 13:18:08] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:24:20] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:24:21] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:24:24] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:24:24] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:24:27] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:24:27] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:24:30] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:24:30] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:24:30] WARNING [password.views:17] 
+[2025-05-18 13:24:32] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:24:33] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:24:33] WARNING [password.views:17] test
+[2025-05-18 13:24:43] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:24:43] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:24:43] WARNING [password.views:17] test
+[2025-05-18 13:24:52] WARNING [django.request:248] Unauthorized: /generate-password/
+[2025-05-18 13:24:52] WARNING [django.server:213] "POST /generate-password/ HTTP/1.1" 401 58
+[2025-05-18 13:31:45] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:31:45] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:31:45] WARNING [password.views:17] test
+[2025-05-18 13:31:52] INFO [password.views:31] Storing password for user: None, label: None
+[2025-05-18 13:31:52] ERROR [django.request:248] Internal Server Error: /generate-password/
+Traceback (most recent call last):
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: password_passwords.user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py", line 35, in post
+    passwordStore = Passwords.objects.create(user_id=user_id, label=label, password=password)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/query.py", line 1854, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1881, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: password_passwords.user_id
+[2025-05-18 13:31:52] ERROR [django.server:213] "POST /generate-password/ HTTP/1.1" 500 180289
+[2025-05-18 13:32:51] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:32:51] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:32:51] WARNING [password.views:17] test
+[2025-05-18 13:32:54] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:32:55] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:32:55] WARNING [password.views:17] test
+[2025-05-18 13:32:59] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:32:59] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:32:59] WARNING [password.views:17] test
+[2025-05-18 13:33:00] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:33:01] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:33:01] WARNING [password.views:17] test
+[2025-05-18 13:33:11] INFO [password.views:28] Storing password for user: None, label: None
+[2025-05-18 13:33:11] ERROR [django.request:248] Internal Server Error: /generate-password/
+Traceback (most recent call last):
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: password_passwords.user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py", line 35, in post
+    passwordStore = Passwords.objects.create(user_id=user_id, label=label, password=password)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/query.py", line 1854, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1881, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: password_passwords.user_id
+[2025-05-18 13:33:11] ERROR [django.server:213] "POST /generate-password/ HTTP/1.1" 500 180281
+[2025-05-18 13:34:25] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:34:25] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:34:25] WARNING [password.views:17] test
+[2025-05-18 13:34:27] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:34:27] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:34:27] WARNING [password.views:17] test
+[2025-05-18 13:34:46] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:34:47] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:34:47] WARNING [password.views:17] test
+[2025-05-18 13:34:51] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:34:51] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:34:51] WARNING [password.views:17] test
+[2025-05-18 13:35:01] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:35:01] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:35:01] WARNING [password.views:17] test
+[2025-05-18 13:35:03] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:35:04] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:35:04] WARNING [password.views:17] test
+[2025-05-18 13:35:09] INFO [password.views:28] Storing password for user: None, label: None
+[2025-05-18 13:35:09] ERROR [django.request:248] Internal Server Error: /generate-password/
+Traceback (most recent call last):
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py", line 30, in post
+    if length > 16 or length < 6:
+       ^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+[2025-05-18 13:35:09] ERROR [django.server:213] "POST /generate-password/ HTTP/1.1" 500 90969
+[2025-05-18 13:35:40] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:35:40] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:35:45] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:35:45] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:35:46] WARNING [password.views:17] test
+[2025-05-18 13:35:48] INFO [password.views:28] Storing password for user: None, label: None
+[2025-05-18 13:35:48] ERROR [django.request:248] Internal Server Error: /generate-password/
+Traceback (most recent call last):
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/fields/__init__.py", line 2128, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'None'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py", line 35, in post
+    passwordStore = Passwords.objects.create(user_id=user_id, label=label, password=password)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/query.py", line 1854, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1880, in execute_sql
+    for sql, params in self.as_sql():
+                       ~~~~~~~~~~~^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1805, in as_sql
+    self.prepare_value(field, self.pre_save_val(field, obj))
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1740, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/fields/__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/fields/__init__.py", line 2135, in get_db_prep_value
+    value = super().get_db_prep_value(value, connection, prepared)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/fields/__init__.py", line 1005, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/db/models/fields/__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+        "Field '%s' expected a number but got %r." % (self.name, value),
+    ) from e
+ValueError: Field 'user_id' expected a number but got 'None'.
+[2025-05-18 13:35:48] ERROR [django.server:213] "POST /generate-password/ HTTP/1.1" 500 167026
+[2025-05-18 13:36:58] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/models.py changed, reloading.
+[2025-05-18 13:36:59] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:36:59] WARNING [password.views:17] test
+[2025-05-18 13:37:13] WARNING [password.views:17] test
+[2025-05-18 13:37:27] WARNING [password.views:17] test
+[2025-05-18 13:37:32] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:37:33] WARNING [password.views:17] test
+[2025-05-18 13:37:38] INFO [password.views:28] Storing password for user: None, label: None
+[2025-05-18 13:37:38] ERROR [django.request:248] Internal Server Error: /generate-password/
+Traceback (most recent call last):
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Users/abhikchatterjee/practice/passwordGenerator/env/lib/python3.13/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py", line 38, in post
+    return Response({"password": password, "id": user_id.id})
+                                                 ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'id'
+[2025-05-18 13:37:38] ERROR [django.server:213] "POST /generate-password/ HTTP/1.1" 500 90316
+[2025-05-18 13:38:14] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:38:14] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:38:14] WARNING [password.views:17] test
+[2025-05-18 13:38:19] INFO [password.views:28] Storing password for user: None, label: None
+[2025-05-18 13:38:19] INFO [django.server:213] "POST /generate-password/ HTTP/1.1" 200 35
+[2025-05-18 13:38:54] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:38:55] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:38:56] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:38:56] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:38:57] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:38:57] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:39:03] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:39:04] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:39:04] WARNING [password.views:17] test
+[2025-05-18 13:39:08] INFO [password.views:28] Storing password for user: None, label: None
+[2025-05-18 13:39:08] INFO [django.server:213] "POST /generate-password/ HTTP/1.1" 200 50
+[2025-05-18 13:39:20] INFO [password.views:28] Storing password for user: None, label: admin
+[2025-05-18 13:39:20] INFO [django.server:213] "POST /generate-password/ HTTP/1.1" 200 51
+[2025-05-18 13:39:40] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:39:40] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:39:40] WARNING [password.views:17] test
+[2025-05-18 13:39:43] WARNING [django.request:248] Unauthorized: /generate-password/
+[2025-05-18 13:39:43] WARNING [django.server:213] "POST /generate-password/ HTTP/1.1" 401 58
+[2025-05-18 13:46:12] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/passwordService/settings.py changed, reloading.
+[2025-05-18 13:46:13] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:46:13] WARNING [password.views:17] test
+[2025-05-18 13:50:23] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/passwordService/settings.py changed, reloading.
+[2025-05-18 13:50:23] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:50:23] WARNING [password.views:17] test
+[2025-05-18 13:50:52] WARNING [password.views:17] test
+[2025-05-18 13:51:12] WARNING [password.views:17] test
+[2025-05-18 13:51:16] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:51:16] WARNING [password.views:17] test
+[2025-05-18 13:51:25] WARNING [django.request:248] Unauthorized: /generate-password/
+[2025-05-18 13:51:25] WARNING [django.server:213] "POST /generate-password/ HTTP/1.1" 401 58
+[2025-05-18 13:52:26] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:52:26] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:52:27] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 13:52:27] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:52:27] WARNING [password.views:17] test
+[2025-05-18 13:52:31] WARNING [django.request:248] Unauthorized: /generate-password/
+[2025-05-18 13:52:31] WARNING [django.server:213] "POST /generate-password/ HTTP/1.1" 401 58
+[2025-05-18 13:53:52] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/passwordService/settings.py changed, reloading.
+[2025-05-18 13:53:53] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 13:53:53] WARNING [password.views:17] test
+[2025-05-18 18:42:32] WARNING [django.request:248] Unauthorized: /generate-password/
+[2025-05-18 18:42:32] WARNING [django.server:213] "POST /generate-password/ HTTP/1.1" 401 58
+[2025-05-18 18:46:24] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/passwordService/settings.py changed, reloading.
+[2025-05-18 18:46:25] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 18:46:26] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/passwordService/settings.py changed, reloading.
+[2025-05-18 18:46:26] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 18:46:26] WARNING [password.views:17] test
+[2025-05-18 18:46:30] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/passwordService/settings.py changed, reloading.
+[2025-05-18 18:46:30] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 18:46:30] WARNING [password.views:17] test
+[2025-05-18 18:46:47] WARNING [django.request:248] Unauthorized: /generate-password/
+[2025-05-18 18:46:47] WARNING [django.server:213] "POST /generate-password/ HTTP/1.1" 401 58
+[2025-05-18 18:47:57] WARNING [django.request:248] Unauthorized: /generate-password/
+[2025-05-18 18:47:57] WARNING [django.server:213] "POST /generate-password/ HTTP/1.1" 401 58
+[2025-05-18 18:54:37] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/models.py changed, reloading.
+[2025-05-18 18:54:37] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 18:54:37] WARNING [password.views:17] test
+[2025-05-18 18:54:47] WARNING [password.views:17] test
+[2025-05-18 18:54:52] WARNING [password.views:17] test
+[2025-05-18 18:54:55] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 18:54:55] WARNING [password.views:17] test
+[2025-05-18 18:55:36] WARNING [django.request:248] Unauthorized: /generate-password/
+[2025-05-18 18:55:36] WARNING [django.server:213] "POST /generate-password/ HTTP/1.1" 401 58
+[2025-05-18 19:16:44] INFO [django.utils.autoreload:265] /Users/abhikchatterjee/practice/passwordGenerator/passwordService/password/views.py changed, reloading.
+[2025-05-18 19:16:44] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-05-18 19:16:44] WARNING [password.views:17] test
+[2025-05-18 19:16:56] WARNING [django.request:248] Unauthorized: /generate-password/
+[2025-05-18 19:16:56] WARNING [django.server:213] "POST /generate-password/ HTTP/1.1" 401 58
+[2025-05-18 19:17:18] WARNING [django.request:248] Unauthorized: /generate-password/
+[2025-05-18 19:17:18] WARNING [django.server:213] "POST /generate-password/ HTTP/1.1" 401 58
